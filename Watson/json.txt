@@ -1,0 +1,24 @@
+data sharing format.
+
+java script object notation.
+
+{
+	"name": "rahul",
+	"roll no": "66"
+}
+
+
+to use json in python-
+
+import json
+
+The ds to store json string in pythoon is dictionay. (dictionary contains key:value pairs d={})
+
+To convert a json string to python dictionary-
+
+d=json.loads(s)
+
+To convert a dictionary to json string-
+
+s=json.dumps(d)
+
